@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce - Cart</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body class="">
+
+    <header class="shadow-lg">
+      <div class="max-w-[1400px] ml-auto mr-auto px-5 xl:px-0 h-20 flex justify-between items-center">
+        <h6 class="font-semibold">Ecommerce Project</h6>
+        <div class="flex items-center gap-10 text-xl text-green-700">
+          <a href="registration.html" class="hover:text-green-900">
+            <i class="fas fa-user"></i>
+          </a>
+          <a href="cart.html" class="hover:text-green-900">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Cart Section -->
+    <section class="max-w-[1400px] ml-auto mr-auto px-5 xl:px-0 py-20">
+      
+        <div class="border-b-2 border-gray-200 pb-5">
+          <h5 class="font-bold mb-2 text-green-700">Shopping Cart</h5>
+          <p><span>Homepage</span> / <span>Clothing Categories</span> / <span>Shopping Cart</span></p>
+        </div>
+  
+        <!-- Product List -->
+        <div class="grid sm:grid-cols-1 xl:grid-cols-3 gap-12 py-10">
+          <div class="sm:col-span-1 xl:col-span-2 grid gap-8 lg:pr-12 lg:border-r-2 border-gray-300">
+            
+  
+  
+            <div class="flex justify-between pb-10 border-b-2 border-gray-300">
+              <!-- Product Details Section -->
+              <div class="flex gap-4">
+  
+                <div class="h-32 w-24 relative rounded-md flex items-center">
+                  <img src="img/shirt.jpg" alt="">
+                  <div class="scale-75 absolute bottom-1 left-1/2 -translate-x-1/2 w-[110%] flex sm:hidden items-center justify-center gap-2 px-2 py-1 rounded-3xl text-sm text-gray-600 border-2 bg-red-300">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                    <span>Sold Out</span>
+                </div>
+  
+                </div>
+                
+                <div class="flex flex-col justify-between items-start">
+  
+                  <div class="w-36">
+                    <p class="font-bold mb-2">Shirt </p>
+                    <div class="flex text-gray-600">
+                      <div class="flex items-center border-r-2 pr-4">
+                        <i class=" fa-solid fa-fill-drip"></i>
+                        <span class="pl-1">Black</span>
+                      </div>
+  
+                      <div class="flex items-center pl-4">
+                        <i class="text-sm fa-solid fa-up-right-and-down-left-from-center"></i>
+                        <span class="pl-1">2XL</span>
+                      </div>
+  
+                    </div>
+                  </div>
+  
+                  <div class="hidden sm:flex items-center gap-2 px-2 py-1 rounded-3xl text-sm text-gray-600 border-2 border-gray-300">
+                      <i class="fa-regular fa-circle-xmark"></i>
+                      <span>Sold Out</span>
+                  </div>
+  
+                  <!-- Increment Decrement Section -->
+                  <div class="">
+                    <div class="flex gap-5 items-center sm:hidden">
+                      <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-minus"></i>
+                      <span>1</span>
+                      <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-plus"></i>
+                    </div>   
+                  </div>
+                  
+                </div>
+  
+              </div>
+  
+              <!-- Increment Decrement Section -->
+              <div class="">
+                <div class="sm:flex gap-5 items-center hidden">
+                  <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-minus"></i>
+                  <span>1</span>
+                  <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-plus"></i>
+                </div>   
+              </div>
+  
+              <!-- Price Section -->
+              <div class="grid content-between text-right">
+                <div>
+                  <span class="font-semibold text-green-500 border-green-500 border-2 rounded-lg px-3 py-[0.125rem]">$52</span>
+                </div>
+                <a class="text-green-800 font-bold" href="">Remove</a>
+              </div> 
+            </div>
+  
+            <div class="flex justify-between pb-10 border-b-2 border-gray-300">
+              <!-- Product Details Section -->
+              <div class="flex gap-4">
+  
+                <div class="h-32 w-24 relative rounded-md flex items-center">
+                  <img src="img/pant.jpg" alt="">
+                  <div class="scale-75 absolute bottom-1 left-1/2 -translate-x-1/2 w-[110%] flex sm:hidden items-center justify-center gap-2 px-2 py-1 rounded-3xl text-sm text-gray-600 border-2 bg-red-300">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                    <span>Sold Out</span>
+                </div>
+  
+                </div>
+                
+                <div class="flex flex-col justify-between items-start">
+  
+                  <div class="w-36">
+                    <p class="font-bold mb-2">Pant</p>
+                    <div class="flex text-gray-600">
+                      <div class="flex items-center border-r-2 pr-4">
+                        <i class=" fa-solid fa-fill-drip"></i>
+                        <span class="pl-1">Black</span>
+                      </div>
+  
+                      <div class="flex items-center pl-4">
+                        <i class="text-sm fa-solid fa-up-right-and-down-left-from-center"></i>
+                        <span class="pl-1">2XL</span>
+                      </div>
+  
+                    </div>
+                  </div>
+  
+                  <div class="hidden sm:flex items-center gap-2 px-2 py-1 rounded-3xl text-sm text-gray-600 border-2 border-gray-300">
+                      <i class="fa-regular fa-circle-xmark"></i>
+                      <span>Sold Out</span>
+                  </div>
+  
+                  <!-- Increment Decrement Section -->
+                  <div class="">
+                    <div class="flex gap-5 items-center sm:hidden">
+                      <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-minus"></i>
+                      <span>1</span>
+                      <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-plus"></i>
+                    </div>   
+                  </div>
+                  
+                </div>
+  
+              </div>
+  
+              <!-- Increment Decrement Section -->
+              <div class="">
+                <div class="sm:flex gap-5 items-center hidden">
+                  <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-minus"></i>
+                  <span>1</span>
+                  <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-plus"></i>
+                </div>   
+              </div>
+  
+              <!-- Price Section -->
+              <div class="grid content-between text-right">
+                <div>
+                  <span class="font-semibold text-green-500 border-green-500 border-2 rounded-lg px-3 py-[0.125rem]">$52</span>
+                </div>
+                <a class="text-green-800 font-bold" href="">Remove</a>
+              </div> 
+            </div>
+  
+            <div class="flex justify-between pb-10">
+              <!-- Product Details Section -->
+              <div class="flex gap-4">
+  
+                <div class="h-32 w-24 relative  rounded-md flex items-center">
+                  <img src="img/shoe.jpg" alt="">
+                  <div class="scale-75 absolute bottom-1 left-1/2 -translate-x-1/2 w-[110%] flex sm:hidden items-center justify-center gap-2 px-2 py-1 rounded-3xl text-sm text-gray-600 border-2 bg-red-300">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                    <span>Sold Out</span>
+                </div>
+  
+                </div>
+                
+                <div class="flex flex-col justify-between items-start">
+  
+                  <div class="w-36">
+                    <p class="font-bold mb-2">Shoe</p>
+                    <div class="flex text-gray-600">
+                      <div class="flex items-center border-r-2 pr-4">
+                        <i class=" fa-solid fa-fill-drip"></i>
+                        <span class="pl-1">Black</span>
+                      </div>
+  
+                      <div class="flex items-center pl-4">
+                        <i class="text-sm fa-solid fa-up-right-and-down-left-from-center"></i>
+                        <span class="pl-1">2XL</span>
+                      </div>
+  
+                    </div>
+                  </div>
+  
+                  <div class="hidden sm:flex items-center gap-2 px-2 py-1 rounded-3xl text-sm text-gray-600 border-2 border-gray-300">
+                      <i class="fa-regular fa-circle-xmark"></i>
+                      <span>Sold Out</span>
+                  </div>
+  
+                  <!-- Increment Decrement Section -->
+                  <div class="">
+                    <div class="flex gap-5 items-center sm:hidden">
+                      <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-minus"></i>
+                      <span>1</span>
+                      <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-plus"></i>
+                    </div>   
+                  </div>
+                  
+                </div>
+  
+              </div>
+  
+              <!-- Increment Decrement Section -->
+              <div class="">
+                <div class="sm:flex gap-5 items-center hidden">
+                  <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-minus"></i>
+                  <span>1</span>
+                  <i class="rounded-full border-2 border-gray-300 p-2 fa-solid fa-plus"></i>
+                </div>   
+              </div>
+  
+              <!-- Price Section -->
+              <div class="grid content-between text-right">
+                <div>
+                  <span class="font-semibold text-green-500 border-green-500 border-2 rounded-lg px-3 py-[0.125rem]">$52</span>
+                </div>
+                <a class="text-green-800 font-bold" href="">Remove</a>
+              </div> 
+            </div>
+  
+
+          </div>
+  
+          <!-- Order Summary Section -->
+          <div class="col-span-1">
+            <p class="font-bold mb-4 text-green-700">Order Summary</p>
+  
+            <div class="">
+  
+              <div class="flex justify-between py-2 border-b-2">
+                <p class="text-gray-700 font-semibold">Subtotal</p>
+                <p class="font-bold">$249.00</p>
+              </div>
+  
+              <div class="flex justify-between py-2 border-b-2">
+                <p class="text-gray-700 font-semibold">Shipping estimate</p>
+                <p class="font-bold">$5.00</p>
+              </div>
+  
+              <div class="flex justify-between py-2 border-b-2">
+                <p class="text-gray-700 font-semibold">Tax estimate</p>
+                <p class="font-bold">$24.90</p>
+              </div>
+  
+              <div class="flex justify-between py-2 border-b-2">
+                <p class="font-bold">Order total</p>
+                <p class="font-bold">$249.00</p>
+              </div>
+  
+            </div>
+  
+            <a href="checkout.html"><button class="w-full text-white bg-green-500 py-3 rounded-full mt-5">Checkout</button></a>
+            <p class="text-center mt-3">Learn more <a class="font-bold text-green-700" href="#">Taxes</a> and <a class="font-bold text-green-700"  href="#">Shipping</a> information</p>
+          </div>
+  
+        </div>
+  
+      </section>
+
+  </body>
+</html>
